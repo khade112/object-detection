@@ -3,7 +3,7 @@ import os
 from werkzeug.utils import secure_filename
 import cv2
 import torch
-
+# Set upload and output folder paths
 app = Flask(__name__)
 
 # Set upload and output folder paths
